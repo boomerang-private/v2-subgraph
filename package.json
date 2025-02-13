@@ -10,6 +10,7 @@
     "deploy:alchemy": "graph deploy --node https://subgraphs.alchemy.com/api/subgraphs/deploy --ipfs https://ipfs.satsuma.xyz",
     "codegen": "graph codegen --output-dir src/types/",
     "create-local": "graph create davekaj/uniswap --node http://127.0.0.1:8020",
+    "create-mandala": "graph create boomerang/uniswap-v2 --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy davekaj/uniswap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy-mandala": "graph deploy boomerang/uniswap-v2 --ipfs http://localhost:5001 --node http://127.0.0.1:8020 --version-label v0.0.1",
     "deploy": "graph deploy ianlapham/uniswap-v2-dev --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
