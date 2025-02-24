@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: mandala
     source:
-      address: '0xB5fe0984D73fA7dF7Bfb7913BC560e3Eb8a37A7D'
+      address: '0x652B3e7B72491d46353261F522fce07094Da6750'
       abi: Factory
-      startBlock: 2820719
+      startBlock: 2862117
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
