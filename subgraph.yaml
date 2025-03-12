@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mandala
+    network: acala
     source:
       address: '0x56Ea320B2681567003795c6875899778A0c74582'
       abi: Factory
