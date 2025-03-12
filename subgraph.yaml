@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mandala
+    network: acala
     source:
       abi: Pair
     mapping:
